@@ -1,0 +1,25 @@
+p#d1{
+	border-style: dotted;
+}
+p#d2{
+	color: rgb(123456);
+}
+p#d3{
+	border-style: solid;
+	border-top-color: red;
+	border-bottom-style: inset;
+	border-width: 5px;
+}
+p#d4{
+	border-radius: 10px;
+	border-color: black;
+	border-width: 5px;
+}
+div.pic{
+	width: 400px; 
+	height: 200px;
+}
+div.pic p{
+	width: 600px; 
+	height: 400px;
+}

@@ -1,0 +1,33 @@
+#header{
+	color: white;
+	width: 1000px;
+	height: 60px;
+	background-color: black;
+	line-height: 60px;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	/*将行元素转为块元素*/
+	display: block;	
+	padding: 0 20px;
+}
+a:hover{
+	text-decoration: underline;
+	background-color: #ccc;
+}
+#header #ul li{
+	float: left;
+	list-style: none;
+	padding: 0px 15px;
+}
+#header #div1{
+	float: left;
+	width: 60px;
+	margin-left: 30px;
+}
+#header #div1:hover{
+	color: rgba(253,208,0,0.5);
+	text-shadow: 0px 0px 2px yellow;
+}

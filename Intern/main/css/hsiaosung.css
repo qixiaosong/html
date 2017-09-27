@@ -1,0 +1,134 @@
+nav#header{
+	height: 60px;
+	background-color: #363940;
+	line-height: 60px;
+	font-size: 15px;
+}
+
+#header #ul li{
+	float: right;
+	list-style: none;
+	padding:0px 15px 0px;
+}
+#header #ul li a{
+    padding: 24px 0;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #a9a9a9;
+    font-weight: 600;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+#header #ul li a:hover{
+	color: white;
+}
+#header #header_left{
+	float: left;
+	width: 150px;
+	color: white;
+	line-height: 50px;
+	margin-left: 60px;
+}
+#header a{
+	text-decoration: none;
+	color: white;
+}
+#header a:hover{
+	text-decoration: underline;
+}
+
+#floor{	
+	background: #ccc url(../img/5.jpg) no-repeat fixed;
+	background-size: 100%;
+	text-align: center;
+	height: 800px;
+}
+#floor #floor_1{
+	padding-top: 200px;
+}
+#floor #floor_1 #ff1{
+/*	background-color: blue;*/
+	font-size:70px;
+	color: white;
+	margin:0 auto;
+	width: 800px;
+
+}
+#floor #floor_1 #ff2{
+/*background-color: blue;*/
+	font-size:20px;
+	color: #a9a9a9;
+	margin:0 auto;
+	width: 700px;
+}
+
+#about{
+	height: 1000px;
+}
+#about #about_top #p1{
+	text-transform: uppercase;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #363940;
+    text-align: center;
+    padding-top: 50px;
+}
+#about #about_top #p2{
+	text-transform: uppercase;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #9a9a9a;
+    text-align: center;
+    padding-top: 10px;
+}
+#about #about_mid{
+	padding-top: 40px;
+	width: 80%;
+	height: 150px;
+	margin:0 auto;
+}
+#about #about_ll,#about #about_l{
+	padding: 5px 40px 5px;
+	color: #363940;
+	width: 200px;
+}
+#about #about_r,#about #about_rr{
+	padding: 5px 40px 5px;
+	color: #363940;
+	width: 200px;
+}
+#about #about_mid h4{
+	font-size: 20px;
+}
+#about #about_mid p{
+	font-size: 15px;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	padding-top: 10px;
+}
+#about #about_bot{
+	width: 80%;
+	height: 50px;
+	margin:10px auto;
+}
+#about #about_bot #p1{
+	text-transform: uppercase;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #363940;
+    text-align: center;
+}
+#about #about_bot #p2{
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #9a9a9a;
+    text-align: center;
+    padding-top: 10px;
+}

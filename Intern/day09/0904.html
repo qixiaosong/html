@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>数码时钟</title>
+	<style>
+		#d1{
+			text-align: center;
+			padding-top: 300px;
+			background: black;
+			color: white;
+			font-size: 50px;
+			margin:0 auto;
+		}
+	</style>
+	<script>
+		function toDouble(n){
+			if (n<10) {
+				return '0'+n;
+			}else{
+				return ' '+n;
+			}
+		}
+		window.onload=function(){
+			var oImg=document.getElementsByTagName('img');
+			getDate();
+			function getDate(){
+				var oDate=new Date();
+				var str =toDouble(oDate.getHours())+toDouble(oDate.getMinutes())+toDouble(oDate.getSeconds());
+				for (var i = 0; i < oImg.length; i++) {
+					oImg[i].src='D:/Learn/HTML/Intern/images/'+str.charAt(i)s+'.png';
+				}				
+			}
+			setInterval(getDate,1000);
+		}
+	</script>
+</head>
+<body style="background-color: black">
+	<div id="d1">
+		<img src="D:/Learn/HTML/Intern/images/0.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/1.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/2.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/3.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/4.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/5.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/6.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/7.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/8.png" alt="">
+		<img src="D:/Learn/HTML/Intern/images/9.png" alt="">
+	</div>
+
+</body>
+</html>

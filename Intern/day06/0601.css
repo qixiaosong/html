@@ -1,0 +1,145 @@
+body,div,p,ul,ol,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.lt{
+	float: left;
+}
+.rt{
+	float: right;
+}
+nav#header{
+	height: 50px;
+	background-color: #666;
+	color: white;
+	line-height: 60px;
+	font-size: 15px;
+
+}
+
+#header #ul li{
+	float: right;
+	list-style: none;
+	padding: 0px 15px;
+	
+}
+#header #ul li:hover{
+	background-color: gray;
+}
+#header #susu{
+	float: left;
+	width: 60px;
+	color: white;
+	line-height: 50px;
+	margin-left: 60px;
+}
+#header a{
+	text-decoration: none;
+	color: white;
+}
+#header a:hover{
+	text-decoration: underline;
+}
+#blog{
+	height: 500px;
+	background:black url(D:/Learn/HTML/Intern/images/30.png) no-repeat fixed;
+	background-size: 100%;
+	text-align: center;
+	padding: 120px;
+}
+#blog #b2 h1{
+	width: 120px;
+	font-size: 35px;
+	margin: 0 auto;	
+	color: white;
+	padding-top: 60px;
+}
+#blog #b2 p{
+	color: white;
+	padding-top: 60px;
+}
+#blog #b2 input{
+	width: 150px;
+	height: 50px;
+	background-color: #787878;
+	border:0;
+	margin-top: 60px;
+}
+
+
+section #c1{
+	height: 400px;
+	background-color: #787878;
+	text-align: center;
+	padding-top: 40px;
+}
+section #c1 h2{
+	font-size: 35px;
+}
+section #c1 h3{
+	font-size: 35px;
+	border-bottom: 2px solid black;
+	width: 600px;
+	padding-bottom: 30px;
+	margin:0 auto;
+}
+section #c1 p{
+	margin-top: 20px;
+	width:600px;
+	margin:10px auto; 
+}
+section #c1 ul{
+	margin-top: 60px;
+}
+section #c1 ul li {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	list-style: none;
+	display: inline-block; 
+	margin-right: 15px;
+	border-color: white;
+}
+#c2 .div1{
+	background-color: #262A35;
+}
+#c2 div .image{
+	width: 40%;
+	line-height: 0;
+}
+#c2 div img{
+	width: 100%;
+}
+#c2 div .right{
+	width: 60%;
+	text-align: center;
+	padding-top: 60px;
+}
+#c2 div .right h2,#div2 h2{
+	font-size: 30px;
+}
+#c2 div .right h3,#div2 h3{
+	font-size: 28px;
+	margin-top: 30px;
+}
+p#c2 div .right p,#div2 p{
+	padding-top: 40px;
+	font-size: 25px;
+}
+#c2 #div2{
+	background-color: #4C4C4C;
+}
+#c2 #div2{
+	text-align: center;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+}
+div#header{
+	width: 100%;
+	height: 50px;
+	background-color: #666;
+	color: white;
+	line-height: 60px;
+	font-size: 15px;
+	margin: 0 auto;
+}
+#header #ul li{
+	float: right;
+	list-style: none;
+	padding: 0px 15px;
+}
+#header #susu{
+	float: left;
+	width: 60px;
+	color: white;
+	line-height: 50px;
+	margin-left: 60px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	/*将行元素转为块元素*/
+	display: block;	
+	padding: 0 20px;
+}
+a:hover{
+	text-decoration: underline;
+	background-color: #ccc;
+}
+#blog{
+	width: 100%;
+	height: 500px;
+	background-color:rgb(150,150,150);
+}
+#blog #b2 p{
+	text-align: center;
+}
+
+

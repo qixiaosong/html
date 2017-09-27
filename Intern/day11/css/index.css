@@ -1,0 +1,144 @@
+@charset "utf-8";
+#header{
+	height: 40px;
+	margin: 40px auto;
+}
+#header #header_left{
+	margin-right: 30px;
+}
+#header_center_left{
+	border: 2px solid #0AA1ED;
+}
+#header_center_left i{
+	border: 5px solid transparent;
+	border-top-color: gray;
+	display: inline-block;
+}
+#header_center_left input{
+	padding-left: 8px;
+	border: 0;
+	outline: none;
+	background-color: #f5f5f5;
+	height: 30px;
+	width: 400px;
+}
+#header_center_right img{
+	height: 36px;
+}
+#header_right span{
+	margin-left: 10px;
+}
+#header_right ul li{
+	display: inline-block;
+	padding: 7px 5px;
+}
+/*nav开始*/
+#nav{
+	height: 40px;
+	margin-top: 30px;
+	margin: 0 auto;
+}
+#nav ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+#nav ul li a{
+	color: #ccc;
+	font-size: 15px;
+}
+/*banner开始*/
+#banner{
+	height: 400px;
+	width: 1000px;
+	margin: 0 auto;
+}
+/*1楼*/
+#floor{
+	width: 1000px;
+	margin: 40px auto;
+	border-bottom: 2px solid gray;
+	padding-bottom: 10px;
+}
+#floor span{
+	font-size: 24px;
+	margin-left: 20px;
+}
+#floor_1{
+	width: 1000px;
+	margin: 0 auto;
+}
+#floor_1_top #left{
+	width:600px;
+	height:450px;
+	background-color:#E8E8E8;
+	position: relative;/*相对定位*/
+	margin-right: 10px;
+}
+#floor_1_top #left img{
+	float: right;
+	position: absolute;
+	right: 0px;
+	bottom: 30px;
+}
+#left  #left_left{
+	padding: 40px 60px;
+}
+ .name{
+	font-size: 34px;
+	font-weight: bold;
+}
+ .desc{
+	font-size: 10px;
+}
+ .price{
+	color: #0AA1ED;
+	font-size: 30px;
+	margin-top: 16px;
+}
+ button{
+	width: 150px;
+	height:40px;
+	background:#0AA1ED ;
+}
+/*元素定位
+   父相子绝   父亲相对定位  孩子绝对定位
+ * */
+#floor_1_top #right{
+	width: 380px;
+	height: 450px;
+	background: #E8E8E8;
+}
+#left_right img{
+	float: right;
+}
+#floor_1_top #right{
+	position: relative;
+}
+#floor_1_top img{
+	position: absolute;
+	right: 10px;
+	bottom: 80px;
+}
+#floor_1_bottom{
+	margin-top: 20px;
+}
+#floor_1_bottom img{
+	float: right;
+}
+#floor_1_bottom #div1{
+	width: 350px;
+	height: 238px;
+	background: #E8E8E8;
+	margin-right: 11px;
+}
+#floor_1_bottom #div1 p{
+	padding:20px 10px;
+}
+
+#floor_1_bottom #div2{
+	background: #E8E8E8;
+	margin-right: 15px;
+}
+#floor_1_bottom #div2 p.box{
+	padding:20px 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		window.onload=function(){
+			var btn=document.getElementById('btn');
+			var txt=document.getElementById('txt');
+			var ul=document.getElementById('ul');
+			btn.onclick=function(){
+				var li=document.createElement('li');
+				var oli=ul.getElementsByTagName('li');
+				li.innerHTML=txt.value;
+				// ul.appendChild(li);
+				ul.insertBefore(li,oli[0]);
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="txt">
+	<button id="btn">创建</button>
+	<ul id="ul">
+	</ul>
+</body>
+</html>

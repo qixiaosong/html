@@ -1,0 +1,32 @@
+#comment{
+	width: 90%;
+	height: 50px;
+	border: 1px solid red;
+	padding: 5px;
+	margin-bottom: 5px;
+	
+}
+#comment #top{
+	border-bottom: 1px solid green;
+}
+#comment #top .star{
+	width: 76px;
+	height: 14px;
+	background: transparent url(D:/Learn/HTML/Intern/images/11.png) no-repeat -168px -240px;
+	padding-bottom: 2px;
+}
+#pages a{
+	border: 1px solid blue;
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+#pages a:hover{
+	background-color: gray;
+}
+#pages #current{
+	border: 0;
+	text-decoration: none;
+}
+#pages #current:hover{
+	background-color:transparent;
+}

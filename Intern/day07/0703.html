@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		function f1(){
+			var a=document.getElementById('i1').value;
+			var b=document.getElementById('i2').value;
+			document.getElementById('i3').value=parseInt(a)+parseInt(b);
+			// var c=document.getElementById('i3');
+			// var c=parseInt(a)+parseInt(b);
+			// i3.value=c;
+
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="i1" value="">+
+	<input type="text" id="i2" value="">=
+	<input type="text" id="i3" value="">
+	<input type="button" value="计算" onclick="f1()">
+</body>
+</html>

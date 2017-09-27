@@ -1,0 +1,20 @@
+input{
+	outline: none;
+}
+#d1{
+	background-repeat: no-repeat;
+	background-image: url(D:/Learn/HTML/Intern/images/17.png);
+	background-position: left center;
+	padding-left: 25px;
+}
+#d2{
+	background-repeat: no-repeat;
+	background-image: url(D:/Learn/HTML/Intern/images/18.png);
+	background-position: right center;
+	padding-right: 25px;
+}
+div{
+	width: 62px;
+	height: 15px;
+	background: url(D:/Learn/HTML/Intern/images/11.png) no-repeat -216px -223px;
+}

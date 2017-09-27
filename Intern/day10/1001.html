@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		window.onload=function(){
+			var h1=document.getElementById('h1');
+			var btn=document.getElementById('btn');
+			btn.onclick=function(){
+				h1.removeAttribute('style');
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1 style="color:red" id="h1">hello hsiaosong</h1>
+	<p>点击删除上面的样式</p>
+	<button id="btn">点我</button>
+</body>
+</html>

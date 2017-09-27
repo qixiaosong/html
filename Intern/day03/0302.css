@@ -1,0 +1,13 @@
+div{
+	width:600px;
+	height:200px;
+	background-color: red;
+	overflow-x: auto;
+	border-style: solid;
+	border-color: green;
+	}
+p{
+	width: 800px;
+	height: 400px;
+	background-color: yellow;
+}

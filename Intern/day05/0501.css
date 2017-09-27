@@ -1,0 +1,21 @@
+#box{
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+#box #top{
+	width: 1000px;
+	height: 20px;
+	background-color: #ccc;
+	border:2px solid gray;
+}
+table{
+	width: 1000px;
+}
+td.col1{
+	text-align: left;
+	width: 500px;
+}
+tr{
+	color: red;
+}
